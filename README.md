@@ -4,7 +4,7 @@ NAME
 
 VERSION
 
-    version 1.12.6-1.0.0
+    version 1.13.0-1.0.0
 
 
 DESCRIPTION

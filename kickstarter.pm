@@ -20,14 +20,16 @@ $cwd = getcwd();
 our(%kickstarters);
 %kickstarters = (
       nodejs  => {
-        url => 'https://github.com/bmeme/docker-nodejs-kickstarter.git',
-        info => 'If you have the memento-docker plugin, run "memento docker" inside the new project directory'
+        url => 'https://github.com/bmeme/docker-nodejs-kickstarter.git'
       },
       angular => {
         url => 'https://github.com/bmeme/angular-dev.git'
       },
       gatsbyjs => {
-        url => 'https://github.com/bmeme/gatsby-dev.git',
+        url => 'https://github.com/bmeme/gatsby-dev.git'
+      },
+      java => {
+        url => 'https://github.com/mithenks/java-dev.git'
       },
       drupal => {
         url => 'git@gitlab.bmemelab.cloud:bmeme/development-kickstarters/drupal-kickstarter.git',
@@ -37,6 +39,14 @@ our(%kickstarters);
         url => 'git@gitlab.bmemelab.cloud:michele.mondelli/docker-perl-kickstarter.git'
       }
   );
+
+sub info {
+  my $class = shift;
+  my $arguments = shift;
+  my $params = shift;
+
+  say "Choose your kickstarter and start to do magic!";
+}
 
 sub create {
   my $class = shift;
@@ -48,14 +58,12 @@ sub create {
   if (!$package || !Daemon::in_array([@packages], $package)) {
       $package = Daemon::prompt("Choose a kickstarter", 'nodejs', [@packages]);
   }
-  print "\n";
   
   my $projectUrl = $kickstarters{$package}{'url'};
 
   if (!$directory) {
       $directory = Daemon::prompt("Choose a directory name for your new project", "my-new-${package}-project");
   }
-  print "\n";
 
   Daemon::system("git clone \"${projectUrl}\" \"${directory}\"");
   
@@ -64,5 +72,11 @@ sub create {
   };
 
 }
+
+# OVERRIDDEN METHODS ###########################################################
+
+
+
+# PRIVATE METHODS ##############################################################
 
 1;
