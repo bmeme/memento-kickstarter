@@ -4,7 +4,7 @@ NAME
 
 VERSION
 
-    version 1.13.0-1.0.0
+    version 1.1.0
 
 
 DESCRIPTION
@@ -13,7 +13,7 @@ DESCRIPTION
 
 INSTALLATION
 
-    To use this plugin clone the repository inside the directory `Memento/Tool/custom` of your Memento installation.
+    To use this plugin clone the repository inside the directory `Memento/Tool/custom/memento-kickstarter` of your Memento installation.
 
 USAGE
 
