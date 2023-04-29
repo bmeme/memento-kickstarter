@@ -36,12 +36,12 @@ memento kickstarter create
 
 | Kickstarter | Project repository | Note |
 | - | - | - |
-| NodeJS | [Docker NodeJS Kickstarter](https://github.com/bmeme/docker-nodejs-kickstarter.git) |  |`unmaintained` |
+| NodeJS | [Docker NodeJS Kickstarter](https://github.com/bmeme/docker-nodejs-kickstarter.git) |  |
 | Java | [Docker Java Kickstarter](https://github.com/bmeme/docker-java-kickstarter) | |
 | Drupal | Bmeme Drupal Kickstarter | `private` |
 | Perl | [Docker Perl Kickstarter](https://github.com/bmeme/docker-perl-kickstarter) | |
 | Python | [Python Kickstarter](https://github.com/bmeme/docker-python-kickstarter)| | 
-| GatsbyJS | [GatsbyJS Kickstarter](https://github.com/bmeme/gatsby-dev.git) | 
+| GatsbyJS | [GatsbyJS Kickstarter](https://github.com/bmeme/gatsby-dev.git) | `unmaintained` |
 
 
 ## Contributing
