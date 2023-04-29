@@ -22,14 +22,11 @@ our(%kickstarters);
       nodejs  => {
         url => 'https://github.com/bmeme/docker-nodejs-kickstarter.git'
       },
-      angular => {
-        url => 'https://github.com/bmeme/angular-dev.git'
-      },
       gatsbyjs => {
         url => 'https://github.com/bmeme/gatsby-dev.git'
       },
       java => {
-        url => 'https://github.com/mithenks/java-dev.git'
+        url => 'https://github.com/bmeme/docker-java-kickstarter'
       },
       drupal => {
         url => 'git@gitlab.bmemelab.cloud:bmeme/development-kickstarters/drupal-kickstarter.git',
@@ -37,6 +34,9 @@ our(%kickstarters);
       },
       perl => {
         url => 'git@gitlab.bmemelab.cloud:michele.mondelli/docker-perl-kickstarter.git'
+      },
+      python => {
+        url => 'git@gitlab.bmemelab.cloud:michele.mondelli/docker-python-kickstarter.git'
       }
   );
 
