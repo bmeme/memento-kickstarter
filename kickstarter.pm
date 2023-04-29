@@ -26,17 +26,17 @@ our(%kickstarters);
         url => 'https://github.com/bmeme/gatsby-dev.git'
       },
       java => {
-        url => 'https://github.com/bmeme/docker-java-kickstarter'
+        url => 'https://github.com/bmeme/docker-java-kickstarter.git'
       },
       drupal => {
         url => 'git@gitlab.bmemelab.cloud:bmeme/development-kickstarters/drupal-kickstarter.git',
         info => 'To start working with this kickstarter, take a look at: https://bonsaimeme.atlassian.net/wiki/spaces/KNOW/pages/1553694721/Creare+un+nuovo+progetto+Drupal+partendo+dal+Kickstarter'
       },
       perl => {
-        url => 'git@gitlab.bmemelab.cloud:michele.mondelli/docker-perl-kickstarter.git'
+        url => 'https://github.com/bmeme/docker-perl-kickstarter.git'
       },
       python => {
-        url => 'git@gitlab.bmemelab.cloud:michele.mondelli/docker-python-kickstarter.git'
+        url => 'https://github.com/bmeme/docker-python-kickstarter.git'
       }
   );
 
